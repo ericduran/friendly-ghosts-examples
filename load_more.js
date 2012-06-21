@@ -18,5 +18,5 @@ casper.start('http://www.marthastewart.com/359460/party-decorations/', function(
 });
 
 casper.run(function() {
-    this.test.done(); // I must be called once all the async stuff has been executed
+    this.test.done();
 });
