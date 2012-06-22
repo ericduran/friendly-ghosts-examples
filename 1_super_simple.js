@@ -1,4 +1,3 @@
-
 casper.test.comment('Testing that there are Featured upcoming events on groups.drupal.org.');
 
 // 

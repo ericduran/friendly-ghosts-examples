@@ -17,6 +17,11 @@ casper.start('http://www.marthastewart.com/', function() {
 
 });
 
+// Test inside the iframe
+casper.then(function() {
+  this.test.assertTextExists('Sign in with your Martha Stewart account.', 'Sign in text is now on the dom"');
+});
+
 casper.run(function() {
     this.test.done(); // I must be called once all the async stuff has been executed
 });
